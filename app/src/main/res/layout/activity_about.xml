@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/codGray"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/wildSand" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/tundora" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Saya berharap bisa lolos dan internship di perusahaan Gits Indonesia"
+        android:layout_marginBottom="16dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/wildSand" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By R Rifa Fauzi Komara"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/wildSand"
+        android:textStyle="italic"/>
+
+</LinearLayout>

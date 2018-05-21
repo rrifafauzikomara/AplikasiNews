@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/business"
+            android:title="Business"
+            android:icon="@drawable/ic_business"/>
+        <item
+            android:id="@+id/entertainment"
+            android:title="Entertainment"
+            android:icon="@drawable/ic_entertainment"/>
+        <item
+            android:id="@+id/health"
+            android:title="Health"
+            android:icon="@drawable/ic_health"/>
+        <item
+            android:id="@+id/science"
+            android:title="Science"
+            android:icon="@drawable/ic_science"/>
+        <item
+            android:id="@+id/sports"
+            android:title="Sports"
+            android:icon="@drawable/ic_sports"/>
+        <item
+            android:id="@+id/technology"
+            android:title="Technology"
+            android:icon="@drawable/ic_technology"/>
+    </group>
+
+    <item android:title="Keluar">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_about"
+                android:title="About" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

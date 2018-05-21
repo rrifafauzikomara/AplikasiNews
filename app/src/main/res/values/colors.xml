@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3286aa</color>
+    <color name="colorPrimaryDark">#143969</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="tundora">#484848</color>
+    <color name="wildSand">#F5F5F5</color>
+    <color name="codGray">#1B1B1B</color>
+</resources>
