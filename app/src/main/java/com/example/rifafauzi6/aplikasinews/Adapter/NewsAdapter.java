@@ -12,7 +12,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 import com.example.rifafauzi6.aplikasinews.DetailActivity;
 import com.example.rifafauzi6.aplikasinews.Entity.News;
 import com.example.rifafauzi6.aplikasinews.R;
@@ -40,8 +39,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         final News news = list.get(position);
-        Glide.with(context).load(news.getImgNews()).apply(new RequestOptions().placeholder(R.drawable.img_default_bg).circleCrop())
-                .into(holder.gmb);
+        Glide.with(context).load(news.getImgNews()).into(holder.gmb);
         holder.judul.setText(news.getTitleNews());
         holder.tgl.setText(news.getDateNews().substring(0, 10) + " " + news.getDateNews().substring(11, 16));
         if (news.getAuthorNews() == null) {

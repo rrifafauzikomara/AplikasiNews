@@ -27,7 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
-        android:text="Saya berharap bisa lolos dan internship di perusahaan Gits Indonesia"
+        android:text=""
         android:layout_marginBottom="16dp"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@color/wildSand" />

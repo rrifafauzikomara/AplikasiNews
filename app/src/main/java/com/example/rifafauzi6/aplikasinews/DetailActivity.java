@@ -9,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.request.RequestOptions;
 
 public class DetailActivity extends AppCompatActivity {
 
@@ -32,8 +31,7 @@ public class DetailActivity extends AppCompatActivity {
         bindView();
 
         Glide.with(getApplicationContext())
-                .load(img).apply(new RequestOptions().placeholder(R.drawable.img_default_bg))
-                .into(tvImg);
+                .load(img).into(tvImg);
         tvJudul.setText(judul);
         tvDeskripsi.setText(deskripsi);
         tvTgl.setText(tgl);
